@@ -25,9 +25,9 @@ I'd like to see if a bike is working
 
 objects - messages
 
-person
-bike - if_working
-docking station - releasing_bike
+person/
+bike - if_working/
+docking station - releasing_bike/
 
 
 
