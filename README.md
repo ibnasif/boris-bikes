@@ -25,10 +25,29 @@ I'd like to see if a bike is working
 
 objects - messages
 
-person/
-bike - if_working/
-docking station - releasing_bike/
+person
+bike - if_working
+docking station - releasing_bike
 
 
 
 person ---> docking station ---> checks whether empty or bikes present---> bike ---> released if working ---> docking station ---> releases
+
+
+4. ERRORS
+
+docking_station = DockingStation.new
+
+error - 2.7.2 :001 > docking_station = DockingStation.new
+Traceback (most recent call last):
+        4: from /Users/Student/.rvm/rubies/ruby-2.7.2/bin/irb:23:in `<main>'
+        3: from /Users/Student/.rvm/rubies/ruby-2.7.2/bin/irb:23:in `load'
+        2: from /Users/Student/.rvm/rubies/ruby-2.7.2/lib/ruby/gems/2.7.0/gems/irb-1.2.6/exe/irb:11:in `<top (required)>'
+        1: from (irb):1
+NameError (uninitialized constant DockingStation)
+
+error = NameError
+raised when a variable or constant hasn't been defined within the context
+
+line number = 1
+1: from (irb):1
